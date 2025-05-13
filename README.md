@@ -5,7 +5,7 @@ This is a fully responsive, single-page marketing website for a fictional softwa
 ---
 ## 🔗 Live Demo
 
-👉 [View Live Site](https://your-project-url.vercel.app)
+👉 [View Live Site](https://soft-sell-rose-two.vercel.app)
 
 ---
 
