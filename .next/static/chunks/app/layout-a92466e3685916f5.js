@@ -1,9 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[185],{309:function(e,t,r){Promise.resolve().then(r.bind(r,7475)),Promise.resolve().then(r.t.bind(r,2801,23))},7475:function(e,t,r){"use strict";r.r(t),r.d(t,{ThemeProvider:function(){return ThemeProvider},useTheme:function(){return useTheme}});var o=r(7437),n=r(2265);let s=(0,n.createContext)({theme:"light",toggleTheme:()=>{}}),ThemeProvider=e=>{let{children:t}=e,[r,l]=(0,n.useState)("light");return(0,n.useEffect)(()=>{let e=localStorage.getItem("theme"),t=window.matchMedia("(prefers-color-scheme: dark)").matches,r=e||(t?"dark":"light");l(r),document.documentElement.classList.toggle("dark","dark"===r)},[]),(0,o.jsx)(s.Provider,{value:{theme:r,toggleTheme:()=>{let e="light"===r?"dark":"light";l(e),localStorage.setItem("theme",e),document.documentElement.classList.toggle("dark","dark"===e)}},children:t})},useTheme=()=>(0,n.useContext)(s)},2801:function(){},622:function(e,t,r){"use strict";/**
- * @license React
- * react-jsx-runtime.production.min.js
- *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var o=r(2265),n=Symbol.for("react.element"),s=(Symbol.for("react.fragment"),Object.prototype.hasOwnProperty),l=o.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,u={key:!0,ref:!0,__self:!0,__source:!0};function q(e,t,r){var o,i={},c=null,a=null;for(o in void 0!==r&&(c=""+r),void 0!==t.key&&(c=""+t.key),void 0!==t.ref&&(a=t.ref),t)s.call(t,o)&&!u.hasOwnProperty(o)&&(i[o]=t[o]);if(e&&e.defaultProps)for(o in t=e.defaultProps)void 0===i[o]&&(i[o]=t[o]);return{$$typeof:n,type:e,key:c,ref:a,props:i,_owner:l.current}}t.jsx=q,t.jsxs=q},7437:function(e,t,r){"use strict";e.exports=r(622)}},function(e){e.O(0,[971,472,744],function(){return e(e.s=309)}),_N_E=e.O()}]);
